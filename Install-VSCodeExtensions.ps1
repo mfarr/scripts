@@ -59,5 +59,5 @@ If ($null -eq (Get-Command -Name $command -ErrorAction SilentlyContinue)) {
 }
 
 $extensions.ForEach({
-    &$command --install-extension $_
+    &$command --install-extension $_ | Out-Host
 })
