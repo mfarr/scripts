@@ -5,7 +5,8 @@ $extensions = @(
 
     ## Source Control
     "codezombiech.gitignore", # gitignore
-    "huizhou.githd", # Git History Diff
+    # "huizhou.githd", # Git History Diff
+    "eamodio.gitlens", # GitLens
 
     ## Language/Framework Support
     # Python
@@ -33,6 +34,7 @@ $extensions = @(
     # "golang.go", # Go
     # "rust-lang.rust-analyzer", # Rust Analyzer
     # "vadimcn.vscode-lldb", # CodeLLDB
+    "ms-dotnettools.dotnet-interactive-vscode", # Polyglot Notebooks
 
     # Copilot/Completion
     "visualstudioexptteam.vscodeintellicode", # IntelliCode
