@@ -1,12 +1,11 @@
 $extensions = @(
     ## Themes
-    "pkief.material-icon-theme",
-    "github.github-vscode-theme",
+    "catppuccin.catppuccin-vsc",
+    "catppuccin.catppuccin-vsc-icons"
 
     ## Source Control
     "codezombiech.gitignore", # gitignore
-    # "huizhou.githd", # Git History Diff
-    "eamodio.gitlens", # GitLens
+    "huizhou.githd", # Git History Diff
 
     ## Language/Framework Support
     # Python
