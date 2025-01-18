@@ -48,6 +48,7 @@ $extensions = @(
     "wayou.vscode-todo-highlight", # TODO Highlight
     "ms-azuretools.vscode-docker", # Docker
     "ms-vscode-remote.remote-containers", # Dev Containers
+    "ms-vscode-remote.remote-wsl",
     "ms-vscode-remote.remote-ssh", # Remote - SSH
     "ms-vscode-remote.remote-ssh-edit", # Remote - SSH: Editing Configuration Files
     "amazonwebservices.aws-toolkit-vscode" # AWS Toolkit
