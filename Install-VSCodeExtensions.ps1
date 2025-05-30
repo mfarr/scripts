@@ -1,7 +1,6 @@
 $extensions = @(
     ## Themes
-    "catppuccin.catppuccin-vsc",
-    "catppuccin.catppuccin-vsc-icons"
+    "pkief.material-icon-theme",
 
     ## Source Control
     "codezombiech.gitignore", # gitignore
@@ -10,10 +9,8 @@ $extensions = @(
     ## Language/Framework Support
     # Python
     "ms-python.python", # Python
-    "ms-python.isort", # isort
-    "ms-python.flake8", # Flake8
-    "ms-python.black-formatter", # Black Formatter
     "ms-python.vscode-pylance", # Pylance
+    "charliermarsh.ruff", # Ruff
     
     # Javascript/Typescript
     "angular.ng-template", # Angular Language Service
@@ -30,10 +27,9 @@ $extensions = @(
     "tamasfe.even-better-toml", # Even Better TOML
     "redhat.vscode-yaml", # YAML
     "ms-vscode.powershell", # PowerShell
-    # "golang.go", # Go
+    "golang.go", # Go
     # "rust-lang.rust-analyzer", # Rust Analyzer
     # "vadimcn.vscode-lldb", # CodeLLDB
-    "ms-dotnettools.dotnet-interactive-vscode", # Polyglot Notebooks
 
     # Copilot/Completion
     "visualstudioexptteam.vscodeintellicode", # IntelliCode
