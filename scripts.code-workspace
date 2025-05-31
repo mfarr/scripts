@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "timonwong.shellcheck",
+      "ms-vscode.powershell",
+      "pspester.pester-test"
+    ]
+  },
+  "settings": {
+    "[powershell]": {
+      "debug.saveBeforeStart": "nonUntitledEditorsInActiveGroup",
+      "editor.semanticHighlighting.enabled": true,
+      "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "shellcheck.enable": true,
+    "[shellscript]": {
+      "files.eol": "\n",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true
+    }
+  }
+}
