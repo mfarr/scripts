@@ -6,7 +6,7 @@ CONFIG_FILE="imap-backup.json"
 HEALTHCHECK_PINGKEY="$(op read op://Services/healthcheck.pingkey/password)"
 HEALTHCHECK_SLUG="fastmail-imap-backup"
 
-docker run -it \
+docker run --rm -it \
     --volume $DATA_DIR:/data \
     --volume $CONFIG_DIR:/config \
     --dns 8.8.8.8 ghcr.io/joeyates/imap-backup:latest \
