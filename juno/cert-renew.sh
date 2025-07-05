@@ -4,7 +4,7 @@ if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     exit 1
 fi
 
-cert_dir=/home/mike/Storage/server/cert
+cert_dir=/home/mike/server/cert
 domain_name=juno.fawn-alpha.ts.net
 passphrase_file=passphrase.txt
 syncthing_dir=../config/syncthing
