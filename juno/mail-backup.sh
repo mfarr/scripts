@@ -1,6 +1,6 @@
 #! /bin/sh
 
-DATA_DIR="/mnt/backup/backup/Mike/Mail"
+DATA_DIR="/mnt/backup/mike/mail"
 CONFIG_DIR="/home/mike/.config/imap-backup"
 CONFIG_FILE="imap-backup.json"
 HEALTHCHECK_PINGKEY="$(op read op://Services/healthcheck.pingkey/password)"
