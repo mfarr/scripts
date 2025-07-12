@@ -1,0 +1,6 @@
+[Unit]
+Description=IMAP Backup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/mail-backup.sh

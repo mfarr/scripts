@@ -1,0 +1,10 @@
+[Unit]
+Description=IMAP Backup Hourly Timer
+
+[Timer]
+OnCalendar=Hourly
+Persistent=true
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target
