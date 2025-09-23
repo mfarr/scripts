@@ -12,6 +12,11 @@ $extensions = @(
     "ms-python.python", # Python
     "ms-python.vscode-pylance", # Pylance
     "charliermarsh.ruff", # Ruff
+
+    # Shell
+    "timonwong.shellcheck",
+    "pspester.pester-test",
+    "ms-vscode.powershell", # PowerShell
     
     # Javascript/Typescript
     "angular.ng-template", # Angular Language Service
@@ -27,7 +32,6 @@ $extensions = @(
     # Other
     "tamasfe.even-better-toml", # Even Better TOML
     "redhat.vscode-yaml", # YAML
-    "ms-vscode.powershell", # PowerShell
     "golang.go", # Go
     # "rust-lang.rust-analyzer", # Rust Analyzer
     # "vadimcn.vscode-lldb", # CodeLLDB
