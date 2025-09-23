@@ -1,6 +1,7 @@
 $extensions = @(
     ## Themes
-    "pkief.material-icon-theme",
+    "catppuccin.catppuccin-vsc",
+    "catppuccin.catppuccin-vsc-icons",
 
     ## Source Control
     "codezombiech.gitignore", # gitignore
@@ -57,5 +58,5 @@ If ($null -eq (Get-Command -Name $command -ErrorAction SilentlyContinue)) {
 }
 
 $extensions.ForEach({
-    &$command --install-extension $_ | Out-Host
-})
+        &$command --install-extension $_ | Out-Host
+    })
